@@ -1,0 +1,22 @@
+body{
+  /*background: gray;*/
+  background: url(alberta.jpg);
+  background-repeat:repeat;
+}
+
+div{
+  background: blue;
+  border: orange;
+  border-width: thick; /* 10 px */
+  border-style: dotted;
+
+  }
+
+p{
+  color: yellow;
+}
+
+span{
+  background: red;
+  color: black;
+}
