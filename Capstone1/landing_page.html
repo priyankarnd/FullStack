@@ -3,35 +3,39 @@
     <head>
         <meta charset="utf-8">
         <title> This is the Landing Page</title>
+        <link rel="stylesheet" href="landing_page.css">
+        <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <h3>Welcome to the Landing Page</h3>
-        <h4>We are a  start-up that does something</h4>
+        <div>    
+            <h3>Welcome to the Landing Page</h3>
+            <h4>We are a  start-up that does something</h4>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quasi delectus eveniet consequuntur esse modi, 
-        soluta architecto commodi reprehenderit quibusdam, tempore, corporis debitis fugiat in numquam! Aspernatur laboriosam debitis ipsam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quasi delectus eveniet consequuntur esse modi, 
+            soluta architecto commodi reprehenderit quibusdam, tempore, corporis debitis fugiat in numquam! Aspernatur laboriosam debitis ipsam!</p>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quasi delectus eveniet consequuntur esse modi, 
-        soluta architecto commodi reprehenderit quibusdam, tempore, corporis debitis fugiat in numquam! Aspernatur laboriosam debitis ipsam!</p>
-        
-        <form action="thankyou.html" method="get">
-
-            <h4>Sign up for our upcoming launch!</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quasi delectus eveniet consequuntur esse modi, 
+            soluta architecto commodi reprehenderit quibusdam, tempore, corporis debitis fugiat in numquam! Aspernatur laboriosam debitis ipsam!</p>
             
-            <label>First Name:</label><br>        
-            <input type="text" name="firstname" value=""><br> 
+            <form action="thankyou.html" method="get">
 
-            <label>Last Name:</label><br>        
-            <input type="text" name="lastname" value=""><br> 
+                <h4>Sign up for our upcoming launch!</h4>
+                
+                <label>First Name:</label><br>        
+                <input class="userinput"  type="text" name="firstname" value=""><br> 
 
-            <label>Email:</label><br>
-            <input type="email" name="useremail" value=""><br> 
-            
-            <label>
-            <input type="submit" name="" value="Sign me up!" >
-            </label>
+                <label>Last Name:</label><br>        
+                <input class="userinput" type="text" name="lastname" value=""><br> 
 
-        </form>
+                <label>Email:</label><br>
+                <input class="userinput" type="email" name="useremail" value=""><br> 
+                
+                <label>
+                    <input type="submit" id="submit_button" name="" value="Sign me up!" >
+                </label>
+
+            </form>
+        </div>
     </body>
 </html>

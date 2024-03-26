@@ -1,0 +1,24 @@
+body{
+    background: #2596be;
+    font-family: "Madimi One", sans-serif;
+}
+
+div{
+    background-color:#222A78;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+#submit_button{
+    background: orange;
+    color: black;
+    font-size: 30px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.userinput{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
